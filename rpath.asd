@@ -1,3 +1,4 @@
 (asdf:defsystem rpath
   :components
-  ((:file "rpath")))
+  ((:file "rpath"))
+  :license "mpl")

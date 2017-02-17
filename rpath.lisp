@@ -1,5 +1,12 @@
 (defpackage :rpath
-  (:use :cl))
+  (:use :cl)
+  (:export directory-pathname-p
+	   pathname-as-directory
+	   directory-wildcard
+	   list-directory
+	   file-exists-p
+	   pathname-as-file
+	   walk-directory))
 
 (in-package :rpath)
 
